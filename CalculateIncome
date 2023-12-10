@@ -1,0 +1,93 @@
+package cz.robodreams.javadeveloper.homeworks.hw03primitive;
+
+import java.math.BigDecimal;
+
+public class CalculateIncome {
+
+
+    /**
+     * Calculate daily expensive Note: one day has 8 working hours
+     */
+    public int dailyIncome(int hourlyRate) {
+        int result = 0;
+        // code your solution here
+        // denní příjem
+        int pocetHodin = 8;
+        result = hourlyRate * pocetHodin;
+
+        // last statement will be assigment your temporary result to result variable
+
+
+        //======
+        return result;
+    }
+
+    /**
+     * Calculate monthly expensive Note: one day has 8 working hours, one month has 20 working days
+     */
+    public int monthlyIncome(int hourlyRate) {
+        int result = 0;
+        // code your solution here
+        // měsíční příjem
+        int pocetHodin = 8;
+        int pocetDni = 20;
+        result = pocetHodin * pocetDni * hourlyRate;
+
+        // last statement will be assigment your temporary result to result variable
+        //======
+        return result;
+    }
+
+    public double averageExpensiveOnTeamMemberInDay(int testerHourRate, int programmerHourRate, int analystHourRate) {
+        double result = 0;
+        // code your solution here
+        // average hourly rate
+        int totalHourlyRate = testerHourRate + programmerHourRate + analystHourRate;
+        // průměrné náklady na člena týmu na den
+        result = (double) totalHourlyRate / 3.0;
+
+        // last statement will be assigment your temporary result to result variable
+        //======
+
+        return result;
+    }
+
+    /**
+     * BONUS task
+     */
+    public BigDecimal averageExpensiveOnTeamMemberInDayRoundedToDecimalPlaces(int testerHourRate, int programmerHourRate, int analystHourRate,
+                                                                              byte decimalPlace) {
+        BigDecimal result = BigDecimal.ZERO;
+        // code your solution here
+        // výpočet průměru
+        int totalHourlyRate = testerHourRate + programmerHourRate + analystHourRate;
+        double averageHourlyRate = (double) totalHourlyRate / 3.0;
+
+        // zaokrouhlení
+        result = BigDecimal.valueOf(averageHourlyRate)
+                .setScale(decimalPlace, BigDecimal.ROUND_HALF_UP);
+
+        // last statement will be assigment your temporary result to result variable
+        //======
+        return result;
+    }
+
+    /**
+     * Create report with monthExpensives in format: Analyst:$monthRate; Developer:$devMonthRate; Tester:$testerMonthRate
+     * <p>
+     * instead of $... give your numbers be aware of "; " between salary items. Contains ; and space
+     */
+    public String createReportWithMonthExpensive(int testerHourRate, int programmerHourRate, int analystHourRate) {
+        String result = "";
+        // code your solution here
+        //
+        BigDecimal testerMonthlyIncome = monthlyIncome(testerHourRate);
+        BigDecimal programmerMonthlyIncome = monthlyIncome(programmerHourRate);
+        BigDecimal analystMonthlyIncome = monthlyIncome(analystHourRate);
+
+        result = String.format("Analyst:$%d; Programmer:$%d; Tester:$%d",
+                analystMonthlyIncome, programmerMonthlyIncome, testerMonthlyIncome);
+        // abc
+        // last statement will be assigment your temporary result to result variable
+        //======
+        return result;
