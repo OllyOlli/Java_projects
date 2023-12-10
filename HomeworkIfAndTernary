@@ -1,0 +1,87 @@
+package cz.robodreams.javadeveloper.homeworks.hw05ifandternal;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+public class HomeworkIfAndTernary {
+
+    /**
+     * @param dimensionX dimension x, for circle is radius
+     * @param dimensionY dimension y, for circle 0 (ignore value)
+     * @param operation  operation 1-> rectangle, 2 -> circle
+     * @return calculated area and perimeter in format "Area: %d; Perimeter %d" round to whole number, for unknown operation or invalid entry  return
+     * "Neznama operace"
+     */
+    public String calculateAreaAndPerimeter(int dimensionX, int dimensionY, int operation) {
+        String result;
+
+        // neplatné vstupy
+        if (operation != 1 && operation != 2) {
+            result = "neznamá operace";
+        } else {
+
+            // Pro každou operaci vypočítáme plochu a obvod
+            switch (operation) {
+                case 1: // obdelnik
+                    int areaRectangle = dimensionX * dimensionY; // obsah obdelnik
+                    int perimeterRectangle = 2 * (dimensionX + dimensionY); // obvod obdelnik
+                    result = String.format("Area: %d; Perimeter: %d", areaRectangle, perimeterRectangle);
+                    break;
+
+                case 2: // Kruh
+                    double areaCircle = Math.PI * dimensionX * dimensionX; // obsah kruhu
+                    double perimeterCircle = 2 * Math.PI * dimensionX; // obvod kruhu
+
+                    // Odtržení desetinného místa pomocí BigDecimal
+                    BigDecimal areaCircleTruncated = BigDecimal.valueOf(areaCircle).setScale(0, RoundingMode.DOWN);
+                    BigDecimal perimeterCircleTruncated = BigDecimal.valueOf(perimeterCircle).setScale(0, RoundingMode.DOWN);
+
+                    result = String.format("Area: %s; Perimeter: %s", areaCircleTruncated, perimeterCircleTruncated);
+                    break;
+
+                default:
+                    result = "neznamá operace";
+            }
+
+            return result;
+        }
+    }
+
+    /**
+     * Return "je" if year is a leap year, otherwise "neni; zbyva {years}",
+     * <p>
+     * Write your solution as single ternary operator
+     *
+     *
+     *
+     *      rok není dělitelný 4 → běžný rok, 365 dní, (např. 2023),
+     *      rok je dělitelný 4, zároveň to ale není přelom století (na konci není 00) → rok je přestupný, 366 dní, (např, 2020 nebo 2024),
+     *      rok je přelomem století, je dělitelný 100, ale zároveň první dvojčíslí není dělitelné 4 → rok není přestupný, 365 dní, (např. 1900 nebo 2100),
+     *      rok je dělitelný 4 i 100 i 400 → rok je přestupný (např. 2000).
+     *
+     *      Přestupný rok bude v těchto následujících letech: 2024, 2028, 2032, 2036, 2040, 2044, 2048, 2052, 2056, 2060, 2064, 2068, 2072, 2076, 2080, 2084, 2088, 2092, 2096, 2104.
+     *      * @param year
+     *      * @return
+     *
+     *
+     * @param year year
+     * @return "je" if year is a leap year, otherwise "neni; zbyva {years}",
+     */
+    public class LeapYearChecker {
+        public String isYearALeapYear(int year) {
+            // (expression) ? valueIfTrue : valueIfFalse;
+            return (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0))
+                    ? "je"
+                    : "neni; zbyva " + (4 - year % 4) + " let do přestupného roku";
+        }
+        public static void main(String[] args) {
+            LeapYearChecker checker = new LeapYearChecker();
+
+            // Test cases
+            System.out.println(checker.isYearALeapYear(2023));  // není; zbyva 1 let
+            System.out.println(checker.isYearALeapYear(2020));  // je
+            System.out.println(checker.isYearALeapYear(1900));  // není; zbyva 2 let
+            System.out.println(checker.isYearALeapYear(2100));  // je
+
+        }
+
+    }
