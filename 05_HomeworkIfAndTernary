@@ -51,8 +51,6 @@ public class HomeworkIfAndTernary {
      * <p>
      * Write your solution as single ternary operator
      *
-     *
-     *
      *      rok není dělitelný 4 → běžný rok, 365 dní, (např. 2023),
      *      rok je dělitelný 4, zároveň to ale není přelom století (na konci není 00) → rok je přestupný, 366 dní, (např, 2020 nebo 2024),
      *      rok je přelomem století, je dělitelný 100, ale zároveň první dvojčíslí není dělitelné 4 → rok není přestupný, 365 dní, (např. 1900 nebo 2100),
