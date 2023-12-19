@@ -1,3 +1,3 @@
-# Java_projects_r_d
+# Java_projects
 
 solved tasks for the Java course
