@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw12objectinterfaces;
+package hw12objectinterfaces;
 
 import java.util.ArrayList;
 import java.util.List;
