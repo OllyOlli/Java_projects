@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw16functions;
+package hw16functions;
 
 import java.util.function.BiFunction;
 import java.util.function.Predicate;
