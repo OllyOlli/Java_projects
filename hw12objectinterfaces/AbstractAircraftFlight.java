@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw12objectinterfaces;
+package hw12objectinterfaces;
 
 // Abstraktní třída pro implementaci rozhraní Flight
 public abstract class AbstractAircraftFlight implements Flight {
