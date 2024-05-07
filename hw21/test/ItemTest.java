@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.project;
+package project;
 
 import cz.robodreams.javadeveloper.project.exceptions.ItemAlreadyBorrowedException;
 import cz.robodreams.javadeveloper.project.exceptions.UserNotFoundException;
