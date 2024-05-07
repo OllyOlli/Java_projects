@@ -28,4 +28,4 @@
  *
  *     Vytvořte hlavní program, který umožní uživateli přidávat nové lety, zjišťovat informace o letech a provádět další operace související s letištní správou.
  */
-package cz.robodreams.javadeveloper.homeworks.hw12objectinterfaces;
+package hw12objectinterfaces;
