@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw21junits;
+package hw21junits;
 
 // Builder pro vytváření nových knih
 public class BookBuilder {
