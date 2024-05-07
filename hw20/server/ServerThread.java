@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw20chat.server;
+package hw20chat.server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
