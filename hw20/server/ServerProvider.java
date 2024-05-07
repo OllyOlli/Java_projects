@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw20chat.server;
+package hw20chat.server;
 
 public class ServerProvider {
 
