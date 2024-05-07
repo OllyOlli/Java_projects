@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw21junits;
+package hw21junits;
 
 // Implementace rozhraní UserChannel
 public class UserChannelImpl implements UserChannel {
