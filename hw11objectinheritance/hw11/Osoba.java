@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw11objectinheritance.hw11;
+package hw11objectinheritance.hw11;
 
 // Třída Osoba
 public class Osoba {
