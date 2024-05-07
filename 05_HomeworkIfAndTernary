@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw05ifandternal;
+package hw05ifandternal;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
