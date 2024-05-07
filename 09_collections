@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw09collections.geo;
+package hw09collections.geo;
 
 import java.util.Collection;
 import java.util.Collections;
