@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw13generika;
+package hw13generika;
 
 public class CompositeDemo {
 }
