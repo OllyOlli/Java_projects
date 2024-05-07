@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw08array;
+package hw08array;
 
 public class ArraySearch {
 
