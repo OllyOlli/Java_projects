@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw10objectbasic;
+package hw10objectbasic;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
