@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw15exceptions;
+package hw15exceptions;
 
 import cz.robodreams.javadeveloper.homeworks.hw15exceptions.exceptions.CurrencyNotFoundException;
 import cz.robodreams.javadeveloper.homeworks.hw15exceptions.exceptions.TimeNotAvailableException;
