@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw21junits;
+package hw21junits;
 
 // Enum pro žánry knih
 public enum Genre {
