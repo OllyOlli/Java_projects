@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.project;
+package project;
 
 import lombok.Getter;
 
