@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw17streamapi;
+package hw17streamapi;
 
 import cz.robodreams.javadeveloper.homeworks.hw17streamapi.model.Client;
 import cz.robodreams.javadeveloper.homeworks.hw17streamapi.model.InsurancePolicy;
