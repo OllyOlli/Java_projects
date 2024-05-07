@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw03primitive;
+package hw03primitive;
 
 import java.math.BigDecimal;
 
