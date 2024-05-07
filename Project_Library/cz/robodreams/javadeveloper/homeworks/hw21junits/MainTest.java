@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw21junits;
+package hw21junits;
 
 import org.junit.jupiter.api.Test;
 import java.io.ByteArrayOutputStream;
