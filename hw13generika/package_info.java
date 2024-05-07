@@ -6,4 +6,4 @@
  *     Upravte metodu displayBooks tak, aby byla generická a mohla zobrazovat různé typy objektů uložených v knihovně.
  */
 
-package cz.robodreams.javadeveloper.homeworks.hw13generika;
+package hw13generika;
