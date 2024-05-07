@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw14filestructure;
+package hw14filestructure;
 
 import java.util.ArrayList;
 import java.util.List;
