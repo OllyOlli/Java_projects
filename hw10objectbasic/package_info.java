@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw10objectbasic;
+package hw10objectbasic;
 
 /**
  * Pripravte objeky pro tuto business domenu: Bankovnictvi
