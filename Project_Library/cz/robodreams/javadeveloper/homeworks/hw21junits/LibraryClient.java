@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw21junits;
+package hw21junits;
 
 //import java.io.IOException;
 //import java.io.ObjectOutputStream;
