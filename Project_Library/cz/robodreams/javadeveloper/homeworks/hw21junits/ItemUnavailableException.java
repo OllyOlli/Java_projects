@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw21junits;
+package hw21junits;
 
 // Vlastní výjimka pro situaci, kdy je položka nedostupná
 public class ItemUnavailableException extends Exception {
