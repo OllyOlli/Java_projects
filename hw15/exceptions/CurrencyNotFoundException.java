@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw15exceptions.exceptions;
+package hw15exceptions.exceptions;
 
 /**
  * Vyjímka označující neexistenci měny
