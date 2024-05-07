@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw14filestructure;
+package hw14filestructure;
 //
 // Třída pro demonstraci použití
 public class Main {
