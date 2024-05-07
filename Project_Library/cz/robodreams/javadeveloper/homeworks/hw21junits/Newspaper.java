@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw21junits;
+package hw21junits;
 
 public class Newspaper extends Item {
     private final String frequency; // frequency of the newspaper
