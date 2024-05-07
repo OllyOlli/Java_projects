@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw12objectinterfaces;
+package hw12objectinterfaces;
 
 public class CargoPlaneFlight extends AbstractAircraftFlight {
     // Atributy pro maximální váhu nákladu a typ nákladu
