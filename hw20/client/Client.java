@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw20chat.client;
+package hw20chat.client;
 
 import java.util.List;
 
