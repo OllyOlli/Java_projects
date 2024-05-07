@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw17streamapi.model;
+package hw17streamapi.model;
 
 import java.math.BigDecimal;
 
