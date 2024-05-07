@@ -1,5 +1,5 @@
 ///
-package cz.robodreams.javadeveloper.homeworks.hw15exceptions;
+package hw15exceptions;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
