@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw19banktransfer;
+package hw19banktransfer;
 
 import java.math.BigDecimal;
 
