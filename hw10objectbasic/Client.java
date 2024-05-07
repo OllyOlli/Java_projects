@@ -1,5 +1,5 @@
 //
-package cz.robodreams.javadeveloper.homeworks.hw10objectbasic;
+package hw10objectbasic;
 
 import java.util.ArrayList;
 import java.util.List;
