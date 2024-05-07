@@ -1,4 +1,4 @@
-package cz.robodreams.javadeveloper.homeworks.hw06fibo;
+package hw06fibo;
 
 public class Fibonacci {
 
